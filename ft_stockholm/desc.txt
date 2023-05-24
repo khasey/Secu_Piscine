@@ -1,0 +1,30 @@
+You must create a program called stockholm with these specifications:
+• It must be developed for the Linux platform.
+◦ The program must have the option "–help" or "-h" to display the help.
+◦ The program must have the option "–version" or "-v" to show the version of
+the program.
+◦ The program must have the option "–reverse" or "-r" followed by the key entered
+as an argument to reverse the infection.
+◦ The program must show each encrypted file during the process unless the
+option is indicated "–silent" or "-s", in which case the program will not produce
+any output.
+• The program have to handle errors and will not stop unexpectedly in any case.
+Your program must perform several actions described below:
+• It must only work in a folder called infection in the user’s HOME directory.
+• The program will only act on files whose extensions have been affected by Wannacry.
+The program have to encrypt the contents of the files in this folder using a key.
+• Files must be encrypted with a known algorithm of your choice, which is considered
+secure.
+• The program must rename all the files in the mentioned folder adding the ".ft"
+extension.
+• If they already have this extension, they will not be renamed.
+• The key with which the files are encrypted will be at least 16 characters long.
+• The program must be able to do the reverse operation using the encryption key in
+order to restore the files to their original state.
+To make this program you can use any language you want. However:
+• You must add a file of maximum 50 lines called README.md to the root of your
+repository. This file should contain instructions for use and, if necessary, for com-
+pilation.
+• You must add to the root of your repository a Makefile to configure the files so that
+the program can be run.
+• In any case, you must include all the source code of the program
